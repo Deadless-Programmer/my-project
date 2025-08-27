@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <h1 className="text-amber-500 font">Hello next js</h1>
+      <h1 className="text-amber-500 font">This is root page </h1>
 
       <div className="card bg-base-100 w-96 shadow-sm">
   <figure>
