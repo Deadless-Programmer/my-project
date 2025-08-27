@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spectral.variable} ${quicksand.variable} antialiased`}
+        className={`${spectral.variable} ${quicksand.variable} antialiased   `}
       >
         {children}
       </body>

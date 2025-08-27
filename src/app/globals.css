@@ -2,15 +2,15 @@
 @plugin "daisyui";
 
 
-:root {
+ :root {
   --font-spectral: 'Spectral', serif;
   --font-quicksand: 'Quicksand', sans-serif;
-}
+} 
 
-h1, h2, h3, h4,button {
+.font-spectral  {
   font-family: var(--font-spectral);
 }
 
-p, span, li {
+.font-quicksand {
   font-family: var(--font-quicksand);
 }
