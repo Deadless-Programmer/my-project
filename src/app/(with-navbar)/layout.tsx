@@ -5,7 +5,7 @@ export default function WithNavbarLayout({ children }: { children: React.ReactNo
   return (
     <>
      <Navbar/>
-      <main className="" >{children}</main>
+      <main className="max-w-6xl mx-auto " >{children}</main>
     </>
   );
 }
