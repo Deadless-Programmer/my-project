@@ -1,4 +1,8 @@
+import Post from "@/components/Post";
 import Image from "next/image";
+import { CgCalendarDates } from "react-icons/cg";
+import { FaComment } from "react-icons/fa";
+import { RiUserLine } from "react-icons/ri";
 
 export default function Home() {
   return (
@@ -43,6 +47,15 @@ export default function Home() {
       <div><h1 className="border-b-2 border-orange-500 py-2 font-spectral text-sm  md:text-xl">Black Attack Earns, Boels First 2019 Victory</h1></div>
    
     </div>
+
+    {/* Trending post
+    
+    */}
+
+
+    <Post/>
+
+  
       </section>
   );
 }
